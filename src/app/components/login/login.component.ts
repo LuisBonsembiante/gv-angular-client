@@ -18,7 +18,7 @@ Define el componente con:
   styles: []
 })
 export class LoginComponent implements OnInit {
-
+  // Comment
   constructor( private service:LoginService) { }
 
   @Input() message;
